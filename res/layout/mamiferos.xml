@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/ibtn_infoMam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="42dp"
+        android:background="@null"
+        android:src="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/avesheader" />
+
+    <ImageButton
+        android:id="@+id/ibtn_picsMam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ibtn_infoMam"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/pics" />
+
+    <ImageButton
+        android:id="@+id/ibtn_vidMam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/ibtn_picsMam"
+        android:layout_marginRight="41dp"
+        android:background="@null"
+        android:src="@drawable/video" />
+
+    <TextView
+        android:id="@+id/txt_mam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibtn_infoMam"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:text="Mamiferos en Peligro de Extincion"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keygenteam.animals"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Holo.Theme.NoActionBar" >
+        <activity
+            android:name="com.keygenteam.animals.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.Main"
+            android:label="@string/title_activity_main"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.Aves"
+            android:label="@string/title_activity_aves"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.Videos_Aves"
+            android:label="@string/title_activity_videos__aves"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.GaleriaAves"
+            android:label="@string/title_activity_galeria_aves"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.InfoMamiferos"
+            android:label="@string/title_activity_info_mamiferos"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.GaleriaMamiferos"
+            android:label="@string/title_activity_galeria_mamiferos"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+        <activity
+            android:name="com.keygenteam.animals.VideosMamiferos"
+            android:label="@string/title_activity_videos_mamiferos"
+            android:parentActivityName="com.actionbarsherlock.app.SherlockActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.actionbarsherlock.app.SherlockActivity" />
+        </activity>
+    </application>
+
+</manifest>

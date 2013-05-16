@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Animales en Peligro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_aves">Aves</string>
+    <string name="titulo">Titulo</string>
+    <string name="title_activity_videos__aves">Videos_Aves</string>
+    <string name="title_activity_galeria_aves">GaleriaAves</string>
+    <string name="title_activity_info_mamiferos">InfoMamiferos</string>
+    <string name="title_activity_galeria_mamiferos">GaleriaMamiferos</string>
+    <string name="title_activity_videos_mamiferos">VideosMamiferos</string>
+
+</resources>

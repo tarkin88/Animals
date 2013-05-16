@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/avesheader" />
+
+    <ImageButton
+        android:id="@+id/ibtn_infoAves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="42dp"
+        android:background="@null"
+        android:src="@drawable/info" />
+
+    <ImageButton
+        android:id="@+id/ibtn_vidAves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/ibtn_infoAves"
+        android:layout_marginRight="22dp"
+        android:background="@null"
+        android:src="@drawable/video" />
+
+    <ImageButton
+        android:id="@+id/ibtn_picsAves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ibtn_infoAves"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:src="@drawable/pics" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ibtn_picsAves"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Aves en Peligro de Extincion" />
+
+</RelativeLayout>

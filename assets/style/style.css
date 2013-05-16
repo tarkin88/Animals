@@ -1,0 +1,25 @@
+body {
+	  background-color: #151515;
+	  color: #FFFFFF;
+	}
+p{
+		color: #F2F2F2;
+		letter-spacing: 2px;
+	  	font-size: 10px;
+	  	font-family: arial, sans-serif;
+
+}
+h1 {
+		color: #80FF00;
+		text-transform: uppercase;
+		font-size: 30px;
+		font-family: arial, verdana, sans-serif;
+	}
+	a:link {
+		color: blue;
+	}
+
+	a:visited {
+		color: purple;
+		text-decoration:none;
+	}
